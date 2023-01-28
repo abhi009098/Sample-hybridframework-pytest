@@ -1,0 +1,7 @@
+DEBUG:root:the addition of numbers is:5
+ERROR:root:the addition of numbers is:,5
+CRITICAL:root:the addition of numbers is:5
+WARNING:root:the addition of numbers is:5
+INFO:root:the addition of numbers is:5
+INFO:root:add 2 numbers is passed 
+WARNING:root:the multiplication of result is:12

@@ -1,0 +1,809 @@
+01/20/2023 04:24:19 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:24:19 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:24:38 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:24:39 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:24:46 PM: INFO: **************** login test passed **********************
+01/20/2023 04:27:38 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:27:38 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:27:58 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:27:59 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:28:06 PM: INFO: **************** login test passed **********************
+01/20/2023 04:29:09 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:29:09 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:29:27 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:29:28 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:29:35 PM: INFO: **************** login test passed **********************
+01/20/2023 04:33:00 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 40668
+01/20/2023 04:33:00 PM: DEBUG: POST http://localhost:51352/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"detach": true, "extensions": [], "args": []}}}}
+01/20/2023 04:33:00 PM: DEBUG: Starting new HTTP connection (1): localhost:51352
+01/20/2023 04:33:01 PM: DEBUG: http://localhost:51352 "POST /session HTTP/1.1" 200 791
+01/20/2023 04:33:01 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir40668_1326871662"},"goog:chromeOptions":{"debuggerAddress":"localhost:51355"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"2f30137793f87d0e4d364cb2fa1d33d2"}} | headers=HTTPHeaderDict({'Content-Length': '791', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:01 PM: DEBUG: Finished Request
+01/20/2023 04:33:01 PM: DEBUG: POST http://localhost:51352/session/2f30137793f87d0e4d364cb2fa1d33d2/timeouts {"implicit": 5000}
+01/20/2023 04:33:01 PM: DEBUG: http://localhost:51352 "POST /session/2f30137793f87d0e4d364cb2fa1d33d2/timeouts HTTP/1.1" 200 14
+01/20/2023 04:33:01 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:01 PM: DEBUG: Finished Request
+01/20/2023 04:33:01 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:33:01 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:33:01 PM: DEBUG: POST http://localhost:51352/session/2f30137793f87d0e4d364cb2fa1d33d2/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 04:33:03 PM: DEBUG: http://localhost:51352 "POST /session/2f30137793f87d0e4d364cb2fa1d33d2/url HTTP/1.1" 200 14
+01/20/2023 04:33:03 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:03 PM: DEBUG: Finished Request
+01/20/2023 04:33:03 PM: DEBUG: POST http://localhost:51352/session/2f30137793f87d0e4d364cb2fa1d33d2/window/maximize {}
+01/20/2023 04:33:04 PM: DEBUG: http://localhost:51352 "POST /session/2f30137793f87d0e4d364cb2fa1d33d2/window/maximize HTTP/1.1" 200 51
+01/20/2023 04:33:04 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:04 PM: DEBUG: Finished Request
+01/20/2023 04:33:04 PM: DEBUG: GET http://localhost:51352/session/2f30137793f87d0e4d364cb2fa1d33d2/title {}
+01/20/2023 04:33:04 PM: DEBUG: http://localhost:51352 "GET /session/2f30137793f87d0e4d364cb2fa1d33d2/title HTTP/1.1" 200 29
+01/20/2023 04:33:04 PM: DEBUG: Remote response: status=200 | data={"value":"Your store. Login"} | headers=HTTPHeaderDict({'Content-Length': '29', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:04 PM: DEBUG: Finished Request
+01/20/2023 04:33:04 PM: DEBUG: DELETE http://localhost:51352/session/2f30137793f87d0e4d364cb2fa1d33d2/window {}
+01/20/2023 04:33:20 PM: DEBUG: http://localhost:51352 "DELETE /session/2f30137793f87d0e4d364cb2fa1d33d2/window HTTP/1.1" 200 12
+01/20/2023 04:33:20 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:20 PM: DEBUG: Finished Request
+01/20/2023 04:33:20 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:33:20 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 34172
+01/20/2023 04:33:20 PM: DEBUG: POST http://localhost:51449/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"detach": true, "extensions": [], "args": []}}}}
+01/20/2023 04:33:20 PM: DEBUG: Starting new HTTP connection (1): localhost:51449
+01/20/2023 04:33:21 PM: DEBUG: http://localhost:51449 "POST /session HTTP/1.1" 200 791
+01/20/2023 04:33:21 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir34172_1572085166"},"goog:chromeOptions":{"debuggerAddress":"localhost:51452"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"4b455062225ba7fa770204fdc6adde97"}} | headers=HTTPHeaderDict({'Content-Length': '791', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:21 PM: DEBUG: Finished Request
+01/20/2023 04:33:21 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/timeouts {"implicit": 5000}
+01/20/2023 04:33:21 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/timeouts HTTP/1.1" 200 14
+01/20/2023 04:33:21 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:21 PM: DEBUG: Finished Request
+01/20/2023 04:33:21 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:33:21 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/url HTTP/1.1" 200 14
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/window/maximize {}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/window/maximize HTTP/1.1" 200 51
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element {"using": "css selector", "value": "input.email"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element HTTP/1.1" 200 88
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"923b1f46-300e-4953-9638-f78b03c24e07"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element/923b1f46-300e-4953-9638-f78b03c24e07/clear {"id": "923b1f46-300e-4953-9638-f78b03c24e07"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element/923b1f46-300e-4953-9638-f78b03c24e07/clear HTTP/1.1" 200 14
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element {"using": "css selector", "value": "input.email"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element HTTP/1.1" 200 88
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"923b1f46-300e-4953-9638-f78b03c24e07"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element/923b1f46-300e-4953-9638-f78b03c24e07/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "923b1f46-300e-4953-9638-f78b03c24e07"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element/923b1f46-300e-4953-9638-f78b03c24e07/value HTTP/1.1" 200 14
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element {"using": "css selector", "value": "input.password"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element HTTP/1.1" 200 88
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"ffc7ef76-f1a7-4423-99fc-95e7a80fb1be"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element/ffc7ef76-f1a7-4423-99fc-95e7a80fb1be/clear {"id": "ffc7ef76-f1a7-4423-99fc-95e7a80fb1be"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element/ffc7ef76-f1a7-4423-99fc-95e7a80fb1be/clear HTTP/1.1" 200 14
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element {"using": "css selector", "value": "input.password"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element HTTP/1.1" 200 88
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"ffc7ef76-f1a7-4423-99fc-95e7a80fb1be"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element/ffc7ef76-f1a7-4423-99fc-95e7a80fb1be/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "ffc7ef76-f1a7-4423-99fc-95e7a80fb1be"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element/ffc7ef76-f1a7-4423-99fc-95e7a80fb1be/value HTTP/1.1" 200 14
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element {"using": "css selector", "value": "button[type='submit']"}
+01/20/2023 04:33:23 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element HTTP/1.1" 200 88
+01/20/2023 04:33:23 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"e3a2da86-7ce5-4e41-8fd2-0dd73d6a0476"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:23 PM: DEBUG: Finished Request
+01/20/2023 04:33:23 PM: DEBUG: POST http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/element/e3a2da86-7ce5-4e41-8fd2-0dd73d6a0476/click {"id": "e3a2da86-7ce5-4e41-8fd2-0dd73d6a0476"}
+01/20/2023 04:33:27 PM: DEBUG: http://localhost:51449 "POST /session/4b455062225ba7fa770204fdc6adde97/element/e3a2da86-7ce5-4e41-8fd2-0dd73d6a0476/click HTTP/1.1" 200 14
+01/20/2023 04:33:27 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:27 PM: DEBUG: Finished Request
+01/20/2023 04:33:27 PM: DEBUG: GET http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/title {}
+01/20/2023 04:33:27 PM: DEBUG: http://localhost:51449 "GET /session/4b455062225ba7fa770204fdc6adde97/title HTTP/1.1" 200 50
+01/20/2023 04:33:27 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:27 PM: DEBUG: Finished Request
+01/20/2023 04:33:27 PM: DEBUG: DELETE http://localhost:51449/session/4b455062225ba7fa770204fdc6adde97/window {}
+01/20/2023 04:33:27 PM: DEBUG: http://localhost:51449 "DELETE /session/4b455062225ba7fa770204fdc6adde97/window HTTP/1.1" 200 12
+01/20/2023 04:33:27 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:33:27 PM: DEBUG: Finished Request
+01/20/2023 04:33:27 PM: INFO: **************** login test passed **********************
+01/20/2023 04:36:57 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 28188
+01/20/2023 04:36:57 PM: DEBUG: POST http://localhost:52162/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"detach": true, "extensions": [], "args": []}}}}
+01/20/2023 04:36:57 PM: DEBUG: Starting new HTTP connection (1): localhost:52162
+01/20/2023 04:36:58 PM: DEBUG: http://localhost:52162 "POST /session HTTP/1.1" 200 791
+01/20/2023 04:36:58 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir28188_1180872025"},"goog:chromeOptions":{"debuggerAddress":"localhost:52168"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"883152cfd140b887d4736732b0a3ac9b"}} | headers=HTTPHeaderDict({'Content-Length': '791', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:36:58 PM: DEBUG: Finished Request
+01/20/2023 04:36:58 PM: DEBUG: POST http://localhost:52162/session/883152cfd140b887d4736732b0a3ac9b/timeouts {"implicit": 5000}
+01/20/2023 04:36:58 PM: DEBUG: http://localhost:52162 "POST /session/883152cfd140b887d4736732b0a3ac9b/timeouts HTTP/1.1" 200 14
+01/20/2023 04:36:58 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:36:58 PM: DEBUG: Finished Request
+01/20/2023 04:36:58 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:36:58 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:36:58 PM: DEBUG: POST http://localhost:52162/session/883152cfd140b887d4736732b0a3ac9b/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 04:37:02 PM: DEBUG: http://localhost:52162 "POST /session/883152cfd140b887d4736732b0a3ac9b/url HTTP/1.1" 200 14
+01/20/2023 04:37:02 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:02 PM: DEBUG: Finished Request
+01/20/2023 04:37:02 PM: DEBUG: POST http://localhost:52162/session/883152cfd140b887d4736732b0a3ac9b/window/maximize {}
+01/20/2023 04:37:02 PM: DEBUG: http://localhost:52162 "POST /session/883152cfd140b887d4736732b0a3ac9b/window/maximize HTTP/1.1" 200 51
+01/20/2023 04:37:02 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:02 PM: DEBUG: Finished Request
+01/20/2023 04:37:02 PM: DEBUG: GET http://localhost:52162/session/883152cfd140b887d4736732b0a3ac9b/title {}
+01/20/2023 04:37:02 PM: DEBUG: http://localhost:52162 "GET /session/883152cfd140b887d4736732b0a3ac9b/title HTTP/1.1" 200 29
+01/20/2023 04:37:02 PM: DEBUG: Remote response: status=200 | data={"value":"Your store. Login"} | headers=HTTPHeaderDict({'Content-Length': '29', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:02 PM: DEBUG: Finished Request
+01/20/2023 04:37:02 PM: DEBUG: DELETE http://localhost:52162/session/883152cfd140b887d4736732b0a3ac9b/window {}
+01/20/2023 04:37:19 PM: DEBUG: http://localhost:52162 "DELETE /session/883152cfd140b887d4736732b0a3ac9b/window HTTP/1.1" 200 12
+01/20/2023 04:37:19 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:19 PM: DEBUG: Finished Request
+01/20/2023 04:37:19 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:37:19 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 20088
+01/20/2023 04:37:19 PM: DEBUG: POST http://localhost:52252/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"detach": true, "extensions": [], "args": []}}}}
+01/20/2023 04:37:19 PM: DEBUG: Starting new HTTP connection (1): localhost:52252
+01/20/2023 04:37:20 PM: DEBUG: http://localhost:52252 "POST /session HTTP/1.1" 200 791
+01/20/2023 04:37:20 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir20088_2075469268"},"goog:chromeOptions":{"debuggerAddress":"localhost:52256"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"25cfaeed980358048cbe255a4e5a1b23"}} | headers=HTTPHeaderDict({'Content-Length': '791', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:20 PM: DEBUG: Finished Request
+01/20/2023 04:37:20 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/timeouts {"implicit": 5000}
+01/20/2023 04:37:20 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/timeouts HTTP/1.1" 200 14
+01/20/2023 04:37:20 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:20 PM: DEBUG: Finished Request
+01/20/2023 04:37:20 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:37:20 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/url HTTP/1.1" 200 14
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/window/maximize {}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/window/maximize HTTP/1.1" 200 51
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element {"using": "css selector", "value": "input.email"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element HTTP/1.1" 200 88
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"3b751d8b-af16-4533-8ef9-780cc9638e09"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element/3b751d8b-af16-4533-8ef9-780cc9638e09/clear {"id": "3b751d8b-af16-4533-8ef9-780cc9638e09"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element/3b751d8b-af16-4533-8ef9-780cc9638e09/clear HTTP/1.1" 200 14
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element {"using": "css selector", "value": "input.email"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element HTTP/1.1" 200 88
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"3b751d8b-af16-4533-8ef9-780cc9638e09"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element/3b751d8b-af16-4533-8ef9-780cc9638e09/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "3b751d8b-af16-4533-8ef9-780cc9638e09"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element/3b751d8b-af16-4533-8ef9-780cc9638e09/value HTTP/1.1" 200 14
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element {"using": "css selector", "value": "input.password"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element HTTP/1.1" 200 88
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f50433bf-9ef7-40ac-9291-1d9567cb16c3"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element/f50433bf-9ef7-40ac-9291-1d9567cb16c3/clear {"id": "f50433bf-9ef7-40ac-9291-1d9567cb16c3"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element/f50433bf-9ef7-40ac-9291-1d9567cb16c3/clear HTTP/1.1" 200 14
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element {"using": "css selector", "value": "input.password"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element HTTP/1.1" 200 88
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f50433bf-9ef7-40ac-9291-1d9567cb16c3"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element/f50433bf-9ef7-40ac-9291-1d9567cb16c3/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "f50433bf-9ef7-40ac-9291-1d9567cb16c3"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element/f50433bf-9ef7-40ac-9291-1d9567cb16c3/value HTTP/1.1" 200 14
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element {"using": "css selector", "value": "button[type='submit']"}
+01/20/2023 04:37:22 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element HTTP/1.1" 200 88
+01/20/2023 04:37:22 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"fe3dde65-281c-49b9-bd18-aff39a2c2e68"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:22 PM: DEBUG: Finished Request
+01/20/2023 04:37:22 PM: DEBUG: POST http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/element/fe3dde65-281c-49b9-bd18-aff39a2c2e68/click {"id": "fe3dde65-281c-49b9-bd18-aff39a2c2e68"}
+01/20/2023 04:37:25 PM: DEBUG: http://localhost:52252 "POST /session/25cfaeed980358048cbe255a4e5a1b23/element/fe3dde65-281c-49b9-bd18-aff39a2c2e68/click HTTP/1.1" 200 14
+01/20/2023 04:37:25 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:25 PM: DEBUG: Finished Request
+01/20/2023 04:37:25 PM: DEBUG: GET http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/title {}
+01/20/2023 04:37:25 PM: DEBUG: http://localhost:52252 "GET /session/25cfaeed980358048cbe255a4e5a1b23/title HTTP/1.1" 200 50
+01/20/2023 04:37:25 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:25 PM: DEBUG: Finished Request
+01/20/2023 04:37:25 PM: DEBUG: DELETE http://localhost:52252/session/25cfaeed980358048cbe255a4e5a1b23/window {}
+01/20/2023 04:37:26 PM: DEBUG: http://localhost:52252 "DELETE /session/25cfaeed980358048cbe255a4e5a1b23/window HTTP/1.1" 200 12
+01/20/2023 04:37:26 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:37:26 PM: DEBUG: Finished Request
+01/20/2023 04:37:26 PM: INFO: **************** login test passed **********************
+01/20/2023 04:39:38 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:39:38 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:39:57 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:39:58 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:40:06 PM: INFO: **************** login test passed **********************
+01/20/2023 04:42:09 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:42:09 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:42:13 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:42:14 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:42:22 PM: INFO: **************** login test passed **********************
+01/20/2023 04:45:44 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 37236
+01/20/2023 04:45:45 PM: DEBUG: POST http://localhost:53992/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"detach": true, "extensions": [], "args": []}}}}
+01/20/2023 04:45:45 PM: DEBUG: Starting new HTTP connection (1): localhost:53992
+01/20/2023 04:45:45 PM: DEBUG: http://localhost:53992 "POST /session HTTP/1.1" 200 790
+01/20/2023 04:45:45 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir37236_260259724"},"goog:chromeOptions":{"debuggerAddress":"localhost:53995"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"7dda348b0d55aceb5cca7ffa622f40a3"}} | headers=HTTPHeaderDict({'Content-Length': '790', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:45:46 PM: DEBUG: Finished Request
+01/20/2023 04:45:46 PM: DEBUG: POST http://localhost:53992/session/7dda348b0d55aceb5cca7ffa622f40a3/timeouts {"implicit": 5000}
+01/20/2023 04:45:46 PM: DEBUG: http://localhost:53992 "POST /session/7dda348b0d55aceb5cca7ffa622f40a3/timeouts HTTP/1.1" 200 14
+01/20/2023 04:45:46 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:45:46 PM: DEBUG: Finished Request
+01/20/2023 04:45:46 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 04:45:46 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 04:45:46 PM: DEBUG: POST http://localhost:53992/session/7dda348b0d55aceb5cca7ffa622f40a3/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 04:45:47 PM: DEBUG: http://localhost:53992 "POST /session/7dda348b0d55aceb5cca7ffa622f40a3/url HTTP/1.1" 200 14
+01/20/2023 04:45:47 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:45:47 PM: DEBUG: Finished Request
+01/20/2023 04:45:47 PM: DEBUG: POST http://localhost:53992/session/7dda348b0d55aceb5cca7ffa622f40a3/window/maximize {}
+01/20/2023 04:45:48 PM: DEBUG: http://localhost:53992 "POST /session/7dda348b0d55aceb5cca7ffa622f40a3/window/maximize HTTP/1.1" 200 51
+01/20/2023 04:45:48 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:45:48 PM: DEBUG: Finished Request
+01/20/2023 04:45:48 PM: DEBUG: GET http://localhost:53992/session/7dda348b0d55aceb5cca7ffa622f40a3/title {}
+01/20/2023 04:45:48 PM: DEBUG: http://localhost:53992 "GET /session/7dda348b0d55aceb5cca7ffa622f40a3/title HTTP/1.1" 200 29
+01/20/2023 04:45:48 PM: DEBUG: Remote response: status=200 | data={"value":"Your store. Login"} | headers=HTTPHeaderDict({'Content-Length': '29', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:45:48 PM: DEBUG: Finished Request
+01/20/2023 04:45:48 PM: DEBUG: DELETE http://localhost:53992/session/7dda348b0d55aceb5cca7ffa622f40a3/window {}
+01/20/2023 04:46:04 PM: DEBUG: http://localhost:53992 "DELETE /session/7dda348b0d55aceb5cca7ffa622f40a3/window HTTP/1.1" 200 12
+01/20/2023 04:46:04 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:04 PM: DEBUG: Finished Request
+01/20/2023 04:46:04 PM: INFO: **************** home page title passed **********************
+01/20/2023 04:46:04 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 40824
+01/20/2023 04:46:04 PM: DEBUG: POST http://localhost:54082/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"detach": true, "extensions": [], "args": []}}}}
+01/20/2023 04:46:04 PM: DEBUG: Starting new HTTP connection (1): localhost:54082
+01/20/2023 04:46:05 PM: DEBUG: http://localhost:54082 "POST /session HTTP/1.1" 200 790
+01/20/2023 04:46:05 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir40824_185307508"},"goog:chromeOptions":{"debuggerAddress":"localhost:54085"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"980b7e3895a6225324f80bc14bb4531c"}} | headers=HTTPHeaderDict({'Content-Length': '790', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:05 PM: DEBUG: Finished Request
+01/20/2023 04:46:05 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/timeouts {"implicit": 5000}
+01/20/2023 04:46:05 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/timeouts HTTP/1.1" 200 14
+01/20/2023 04:46:05 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:05 PM: DEBUG: Finished Request
+01/20/2023 04:46:05 PM: INFO: **************** Verifying login test **********************
+01/20/2023 04:46:05 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/url HTTP/1.1" 200 14
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/window/maximize {}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/window/maximize HTTP/1.1" 200 51
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element {"using": "css selector", "value": "input.email"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element HTTP/1.1" 200 88
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2370b5dc-de70-47c0-a9e1-70e8e8ad0e37"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element/2370b5dc-de70-47c0-a9e1-70e8e8ad0e37/clear {"id": "2370b5dc-de70-47c0-a9e1-70e8e8ad0e37"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element/2370b5dc-de70-47c0-a9e1-70e8e8ad0e37/clear HTTP/1.1" 200 14
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element {"using": "css selector", "value": "input.email"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element HTTP/1.1" 200 88
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"2370b5dc-de70-47c0-a9e1-70e8e8ad0e37"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element/2370b5dc-de70-47c0-a9e1-70e8e8ad0e37/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "2370b5dc-de70-47c0-a9e1-70e8e8ad0e37"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element/2370b5dc-de70-47c0-a9e1-70e8e8ad0e37/value HTTP/1.1" 200 14
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element {"using": "css selector", "value": "input.password"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element HTTP/1.1" 200 88
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"3dd71180-f3cf-4fd9-909c-dab10cc33609"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element/3dd71180-f3cf-4fd9-909c-dab10cc33609/clear {"id": "3dd71180-f3cf-4fd9-909c-dab10cc33609"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element/3dd71180-f3cf-4fd9-909c-dab10cc33609/clear HTTP/1.1" 200 14
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element {"using": "css selector", "value": "input.password"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element HTTP/1.1" 200 88
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"3dd71180-f3cf-4fd9-909c-dab10cc33609"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element/3dd71180-f3cf-4fd9-909c-dab10cc33609/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "3dd71180-f3cf-4fd9-909c-dab10cc33609"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element/3dd71180-f3cf-4fd9-909c-dab10cc33609/value HTTP/1.1" 200 14
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element {"using": "css selector", "value": "button[type='submit']"}
+01/20/2023 04:46:08 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element HTTP/1.1" 200 88
+01/20/2023 04:46:08 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"c384e8c0-73ad-4407-8e5d-5e4b2958f1ce"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:08 PM: DEBUG: Finished Request
+01/20/2023 04:46:08 PM: DEBUG: POST http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/element/c384e8c0-73ad-4407-8e5d-5e4b2958f1ce/click {"id": "c384e8c0-73ad-4407-8e5d-5e4b2958f1ce"}
+01/20/2023 04:46:12 PM: DEBUG: http://localhost:54082 "POST /session/980b7e3895a6225324f80bc14bb4531c/element/c384e8c0-73ad-4407-8e5d-5e4b2958f1ce/click HTTP/1.1" 200 14
+01/20/2023 04:46:12 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:12 PM: DEBUG: Finished Request
+01/20/2023 04:46:12 PM: DEBUG: GET http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/title {}
+01/20/2023 04:46:12 PM: DEBUG: http://localhost:54082 "GET /session/980b7e3895a6225324f80bc14bb4531c/title HTTP/1.1" 200 50
+01/20/2023 04:46:12 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:12 PM: DEBUG: Finished Request
+01/20/2023 04:46:12 PM: DEBUG: DELETE http://localhost:54082/session/980b7e3895a6225324f80bc14bb4531c/window {}
+01/20/2023 04:46:12 PM: DEBUG: http://localhost:54082 "DELETE /session/980b7e3895a6225324f80bc14bb4531c/window HTTP/1.1" 200 12
+01/20/2023 04:46:12 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 04:46:12 PM: DEBUG: Finished Request
+01/20/2023 04:46:12 PM: INFO: **************** login test passed **********************
+01/20/2023 04:55:40 PM: demolog: **************** Test_001_Login *******************
+01/20/2023 04:55:40 PM: demolog: **************** Verifying home page title **********************
+01/20/2023 04:56:00 PM: demolog: **************** home page title passed **********************
+01/20/2023 04:56:01 PM: demolog: **************** Verifying login test **********************
+01/20/2023 04:56:05 PM: demolog: **************** login test passed **********************
+01/20/2023 05:04:10 PM: demolog: INFO: **************** Test_001_Login *******************
+01/20/2023 05:04:10 PM: demolog: INFO: **************** Verifying home page title **********************
+01/20/2023 05:04:29 PM: demolog: INFO: **************** home page title passed **********************
+01/20/2023 05:04:30 PM: demolog: INFO: **************** Verifying login test **********************
+01/20/2023 05:04:35 PM: demolog: INFO: **************** login test passed **********************
+01/20/2023 05:19:05 PM: logGen: INFO: **************** Test_001_Login *******************
+01/20/2023 05:19:05 PM: logGen: INFO: **************** Verifying home page title **********************
+01/20/2023 05:19:24 PM: logGen: INFO: **************** home page title passed **********************
+01/20/2023 05:19:25 PM: logGen: INFO: **************** Verifying login test **********************
+01/20/2023 05:19:32 PM: logGen: INFO: **************** login test passed **********************
+01/20/2023 10:10:38 PM: logGen: INFO: **************** Test_001_Login *******************
+01/20/2023 10:10:38 PM: logGen: INFO: **************** Verifying home page title **********************
+01/20/2023 10:10:59 PM: logGen: INFO: **************** home page title passed **********************
+01/20/2023 10:11:00 PM: logGen: INFO: **************** Verifying login test **********************
+01/20/2023 10:11:10 PM: logGen: INFO: **************** login test passed **********************
+01/20/2023 11:29:09 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 1736
+01/20/2023 11:29:09 PM: DEBUG: POST http://localhost:49841/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+01/20/2023 11:29:09 PM: DEBUG: Starting new HTTP connection (1): localhost:49841
+01/20/2023 11:29:10 PM: DEBUG: http://localhost:49841 "POST /session HTTP/1.1" 200 790
+01/20/2023 11:29:10 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir1736_1773596258"},"goog:chromeOptions":{"debuggerAddress":"localhost:49850"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"d0de5142ccbb4c6bc91ab13ae7552068"}} | headers=HTTPHeaderDict({'Content-Length': '790', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:10 PM: DEBUG: Finished Request
+01/20/2023 11:29:10 PM: DEBUG: POST http://localhost:49841/session/d0de5142ccbb4c6bc91ab13ae7552068/timeouts {"implicit": 5000}
+01/20/2023 11:29:10 PM: DEBUG: http://localhost:49841 "POST /session/d0de5142ccbb4c6bc91ab13ae7552068/timeouts HTTP/1.1" 200 14
+01/20/2023 11:29:10 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:10 PM: DEBUG: Finished Request
+01/20/2023 11:29:10 PM: INFO: **************** Test_001_Login *******************
+01/20/2023 11:29:10 PM: INFO: **************** Verifying home page title **********************
+01/20/2023 11:29:10 PM: DEBUG: POST http://localhost:49841/session/d0de5142ccbb4c6bc91ab13ae7552068/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 11:29:14 PM: DEBUG: http://localhost:49841 "POST /session/d0de5142ccbb4c6bc91ab13ae7552068/url HTTP/1.1" 200 14
+01/20/2023 11:29:14 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:14 PM: DEBUG: Finished Request
+01/20/2023 11:29:14 PM: DEBUG: POST http://localhost:49841/session/d0de5142ccbb4c6bc91ab13ae7552068/window/maximize {}
+01/20/2023 11:29:14 PM: DEBUG: http://localhost:49841 "POST /session/d0de5142ccbb4c6bc91ab13ae7552068/window/maximize HTTP/1.1" 200 51
+01/20/2023 11:29:14 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:14 PM: DEBUG: Finished Request
+01/20/2023 11:29:14 PM: DEBUG: GET http://localhost:49841/session/d0de5142ccbb4c6bc91ab13ae7552068/title {}
+01/20/2023 11:29:14 PM: DEBUG: http://localhost:49841 "GET /session/d0de5142ccbb4c6bc91ab13ae7552068/title HTTP/1.1" 200 29
+01/20/2023 11:29:14 PM: DEBUG: Remote response: status=200 | data={"value":"Your store. Login"} | headers=HTTPHeaderDict({'Content-Length': '29', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:14 PM: DEBUG: Finished Request
+01/20/2023 11:29:14 PM: DEBUG: DELETE http://localhost:49841/session/d0de5142ccbb4c6bc91ab13ae7552068/window {}
+01/20/2023 11:29:30 PM: DEBUG: http://localhost:49841 "DELETE /session/d0de5142ccbb4c6bc91ab13ae7552068/window HTTP/1.1" 200 12
+01/20/2023 11:29:30 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:30 PM: DEBUG: Finished Request
+01/20/2023 11:29:30 PM: INFO: **************** home page title passed **********************
+01/20/2023 11:29:30 PM: DEBUG: Started executable: `chromedriver` in a child process with pid: 6308
+01/20/2023 11:29:31 PM: DEBUG: POST http://localhost:49932/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}}
+01/20/2023 11:29:31 PM: DEBUG: Starting new HTTP connection (1): localhost:49932
+01/20/2023 11:29:31 PM: DEBUG: http://localhost:49932 "POST /session HTTP/1.1" 200 789
+01/20/2023 11:29:31 PM: DEBUG: Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"109.0.5414.75","chrome":{"chromedriverVersion":"108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016})","userDataDir":"C:\\Users\\abhi0\\AppData\\Local\\Temp\\scoped_dir6308_949443064"},"goog:chromeOptions":{"debuggerAddress":"localhost:49940"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"35bdca4190306e97db34f7eca3ba0d32"}} | headers=HTTPHeaderDict({'Content-Length': '789', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:31 PM: DEBUG: Finished Request
+01/20/2023 11:29:31 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/timeouts {"implicit": 5000}
+01/20/2023 11:29:31 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/timeouts HTTP/1.1" 200 14
+01/20/2023 11:29:31 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:31 PM: DEBUG: Finished Request
+01/20/2023 11:29:31 PM: INFO: **************** Verifying login test **********************
+01/20/2023 11:29:31 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/url {"url": "https://admin-demo.nopcommerce.com/"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/url HTTP/1.1" 200 14
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/window/maximize {}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/window/maximize HTTP/1.1" 200 51
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":{"height":832,"width":1552,"x":-8,"y":-8}} | headers=HTTPHeaderDict({'Content-Length': '51', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element {"using": "css selector", "value": "input.email"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element HTTP/1.1" 200 88
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"268ea47f-482a-4512-9503-2812375da163"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element/268ea47f-482a-4512-9503-2812375da163/clear {"id": "268ea47f-482a-4512-9503-2812375da163"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element/268ea47f-482a-4512-9503-2812375da163/clear HTTP/1.1" 200 14
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element {"using": "css selector", "value": "input.email"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element HTTP/1.1" 200 88
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"268ea47f-482a-4512-9503-2812375da163"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element/268ea47f-482a-4512-9503-2812375da163/value {"text": "admin@yourstore.com", "value": ["a", "d", "m", "i", "n", "@", "y", "o", "u", "r", "s", "t", "o", "r", "e", ".", "c", "o", "m"], "id": "268ea47f-482a-4512-9503-2812375da163"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element/268ea47f-482a-4512-9503-2812375da163/value HTTP/1.1" 200 14
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element {"using": "css selector", "value": "input.password"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element HTTP/1.1" 200 88
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f245c871-429f-4203-bdce-79d8a0676d1b"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element/f245c871-429f-4203-bdce-79d8a0676d1b/clear {"id": "f245c871-429f-4203-bdce-79d8a0676d1b"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element/f245c871-429f-4203-bdce-79d8a0676d1b/clear HTTP/1.1" 200 14
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element {"using": "css selector", "value": "input.password"}
+01/20/2023 11:29:35 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element HTTP/1.1" 200 88
+01/20/2023 11:29:35 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"f245c871-429f-4203-bdce-79d8a0676d1b"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:35 PM: DEBUG: Finished Request
+01/20/2023 11:29:35 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element/f245c871-429f-4203-bdce-79d8a0676d1b/value {"text": "admin", "value": ["a", "d", "m", "i", "n"], "id": "f245c871-429f-4203-bdce-79d8a0676d1b"}
+01/20/2023 11:29:36 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element/f245c871-429f-4203-bdce-79d8a0676d1b/value HTTP/1.1" 200 14
+01/20/2023 11:29:36 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:36 PM: DEBUG: Finished Request
+01/20/2023 11:29:36 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element {"using": "css selector", "value": "button[type='submit']"}
+01/20/2023 11:29:36 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element HTTP/1.1" 200 88
+01/20/2023 11:29:36 PM: DEBUG: Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"732bb6e9-6fb7-4c1b-8cf6-9dc00d9bdf68"}} | headers=HTTPHeaderDict({'Content-Length': '88', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:36 PM: DEBUG: Finished Request
+01/20/2023 11:29:36 PM: DEBUG: POST http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/element/732bb6e9-6fb7-4c1b-8cf6-9dc00d9bdf68/click {"id": "732bb6e9-6fb7-4c1b-8cf6-9dc00d9bdf68"}
+01/20/2023 11:29:40 PM: DEBUG: http://localhost:49932 "POST /session/35bdca4190306e97db34f7eca3ba0d32/element/732bb6e9-6fb7-4c1b-8cf6-9dc00d9bdf68/click HTTP/1.1" 200 14
+01/20/2023 11:29:40 PM: DEBUG: Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:40 PM: DEBUG: Finished Request
+01/20/2023 11:29:40 PM: DEBUG: GET http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/title {}
+01/20/2023 11:29:40 PM: DEBUG: http://localhost:49932 "GET /session/35bdca4190306e97db34f7eca3ba0d32/title HTTP/1.1" 200 50
+01/20/2023 11:29:40 PM: DEBUG: Remote response: status=200 | data={"value":"Dashboard / nopCommerce administration"} | headers=HTTPHeaderDict({'Content-Length': '50', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:40 PM: DEBUG: Finished Request
+01/20/2023 11:29:40 PM: DEBUG: DELETE http://localhost:49932/session/35bdca4190306e97db34f7eca3ba0d32/window {}
+01/20/2023 11:29:40 PM: DEBUG: http://localhost:49932 "DELETE /session/35bdca4190306e97db34f7eca3ba0d32/window HTTP/1.1" 200 12
+01/20/2023 11:29:40 PM: DEBUG: Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'Content-Length': '12', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+01/20/2023 11:29:40 PM: DEBUG: Finished Request
+01/20/2023 11:29:40 PM: INFO: **************** login test passed **********************
+01/20/2023 11:54:07 PM: logGen: INFO: **************** Test_001_Login *******************
+01/20/2023 11:54:07 PM: logGen: INFO: **************** Verifying home page title **********************
+01/20/2023 11:54:08 PM: logGen: INFO: **************** home page title passed **********************
+01/20/2023 11:54:09 PM: logGen: INFO: **************** Verifying login test **********************
+01/20/2023 11:54:29 PM: logGen: INFO: **************** login test passed **********************
+01/20/2023 11:56:08 PM: logGen: INFO: **************** Test_001_Login *******************
+01/20/2023 11:56:08 PM: logGen: INFO: **************** Verifying home page title **********************
+01/20/2023 11:56:10 PM: logGen: INFO: **************** home page title passed **********************
+01/20/2023 11:56:13 PM: logGen: INFO: **************** Verifying login test **********************
+01/20/2023 11:56:17 PM: logGen: INFO: **************** login test passed **********************
+01/20/2023 11:57:25 PM: logGen: INFO: **************** Test_001_Login *******************
+01/20/2023 11:57:25 PM: logGen: INFO: **************** Verifying home page title **********************
+01/20/2023 11:57:27 PM: logGen: INFO: **************** home page title passed **********************
+01/20/2023 11:57:32 PM: logGen: INFO: **************** Verifying login test **********************
+01/20/2023 11:57:38 PM: logGen: INFO: **************** login test passed **********************
+01/20/2023 11:59:13 PM: logGen: INFO: **************** Test_001_Login *******************
+01/20/2023 11:59:13 PM: logGen: INFO: **************** Verifying home page title **********************
+01/20/2023 11:59:15 PM: logGen: INFO: **************** home page title passed **********************
+01/20/2023 11:59:20 PM: logGen: INFO: **************** Verifying login test **********************
+01/20/2023 11:59:24 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:00:41 AM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 12:00:41 AM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 12:01:00 AM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 12:01:01 AM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 12:01:21 AM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:04:46 AM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 12:04:46 AM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 12:04:48 AM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 12:04:51 AM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 12:04:55 AM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:09:05 AM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 12:09:05 AM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 12:09:14 AM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 12:09:17 AM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 12:09:20 AM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:09:51 AM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 12:09:51 AM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 12:09:52 AM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 12:09:55 AM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 12:09:58 AM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:17:36 AM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 12:17:36 AM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 12:17:36 AM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 12:17:42 AM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:17:54 AM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 12:29:25 AM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 12:29:25 AM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 12:29:25 AM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 12:29:32 AM: logGen: INFO: **************** login test passed **********************
+01/21/2023 12:29:44 AM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:25:54 PM: logGen: INFO: **************** Test_001_Login *******************
+*******
+01/21/2023 04:25:54 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 04:26:00 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 04:26:14 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:30:52 PM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 04:30:52 PM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 04:30:52 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 04:30:57 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 04:31:10 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:35:37 PM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 04:35:37 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 04:35:37 PM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 04:35:42 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 04:35:55 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:46:11 PM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 04:46:11 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 04:46:11 PM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 04:46:17 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 04:46:30 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:47:27 PM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 04:47:27 PM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 04:47:27 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 04:47:34 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 04:47:46 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:52:21 PM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 04:52:21 PM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 04:52:21 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 04:52:41 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 04:52:44 PM: logGen: INFO: **************** login test passed **********************
+01/21/2023 11:49:47 PM: logGen: INFO: **************** Test_001_Login *******************
+01/21/2023 11:49:47 PM: logGen: INFO: **************** Verifying home page title **********************
+01/21/2023 11:50:06 PM: logGen: INFO: **************** home page title passed **********************
+01/21/2023 11:50:07 PM: logGen: INFO: **************** Verifying login test **********************
+01/21/2023 11:50:27 PM: logGen: INFO: **************** login test passed **********************
+01/22/2023 12:00:26 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:00:26 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:03:46 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:03:46 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:05:05 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:05:05 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:05:18 AM: logGen: INFO: *****passed******
+01/22/2023 12:05:26 AM: logGen: INFO: *****failed*********
+01/22/2023 12:05:34 AM: logGen: INFO: *****failed*********
+01/22/2023 12:05:42 AM: logGen: INFO: *****failed*********
+01/22/2023 12:05:43 AM: logGen: INFO: ********LOGINDATA TEST Failed**********
+01/22/2023 12:18:52 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:18:52 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:19:00 AM: logGen: INFO: *****passed******
+01/22/2023 12:19:08 AM: logGen: INFO: *****failed*********
+01/22/2023 12:19:16 AM: logGen: INFO: *****failed*********
+01/22/2023 12:19:24 AM: logGen: INFO: *****failed*********
+01/22/2023 12:19:25 AM: logGen: INFO: ********LOGINDATA TEST Failed**********
+01/22/2023 10:29:54 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 10:29:54 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 10:30:02 AM: logGen: INFO: *****failed*********
+01/22/2023 10:34:47 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 10:34:47 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 10:34:57 AM: logGen: INFO: *****failed*********
+01/22/2023 10:43:02 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 10:43:02 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 10:43:12 AM: logGen: INFO: *****failed*********
+01/22/2023 10:45:48 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 10:45:48 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 10:45:57 AM: logGen: INFO: *****failed*********
+01/22/2023 10:49:43 AM: logGen: INFO: **************** Test_001_Login *******************
+01/22/2023 10:49:43 AM: logGen: INFO: **************** Verifying home page title **********************
+01/22/2023 10:49:46 AM: logGen: INFO: **************** home page title passed **********************
+01/22/2023 10:49:50 AM: logGen: INFO: **************** Verifying login test **********************
+01/22/2023 10:49:55 AM: logGen: INFO: **************** login test passed **********************
+01/22/2023 10:53:36 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 10:53:36 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 10:53:46 AM: logGen: INFO: *****failed*********
+01/22/2023 11:39:50 AM: logGen: INFO: **************** Test_001_Login *******************
+01/22/2023 11:39:50 AM: logGen: INFO: **************** Verifying home page title **********************
+01/22/2023 11:39:54 AM: logGen: INFO: **************** Verifying login test **********************
+01/22/2023 11:40:29 AM: logGen: INFO: **************** Test_001_Login *******************
+01/22/2023 11:40:29 AM: logGen: INFO: **************** Verifying home page title **********************
+01/22/2023 11:40:32 AM: logGen: INFO: **************** home page title passed **********************
+01/22/2023 11:40:35 AM: logGen: INFO: **************** Verifying login test **********************
+01/22/2023 11:40:41 AM: logGen: INFO: **************** login test passed **********************
+01/22/2023 11:50:44 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 11:50:44 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 11:50:54 AM: logGen: INFO: *****failed*********
+01/22/2023 11:51:18 AM: logGen: INFO: **************** Test_001_Login *******************
+01/22/2023 11:51:18 AM: logGen: INFO: **************** Verifying home page title **********************
+01/22/2023 11:51:22 AM: logGen: INFO: **************** home page title passed **********************
+01/22/2023 11:51:25 AM: logGen: INFO: **************** Verifying login test **********************
+01/22/2023 11:51:33 AM: logGen: INFO: **************** login test passed **********************
+01/22/2023 11:56:33 AM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 11:56:33 AM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 11:56:43 AM: logGen: INFO: *****failed*********
+01/22/2023 12:04:14 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:04:14 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:04:24 PM: logGen: INFO: *****failed*********
+01/22/2023 12:24:11 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:24:11 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:24:22 PM: logGen: INFO: *****passed******
+01/22/2023 12:24:29 PM: logGen: INFO: *****passed******
+01/22/2023 12:35:25 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 12:35:25 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 12:35:35 PM: logGen: INFO: *****passed******
+01/22/2023 12:35:42 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:27 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:00:27 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:00:39 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:46 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:46 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:52 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:52 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:57 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:57 PM: logGen: INFO: *****passed******
+01/22/2023 01:00:57 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 01:00:57 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 01:00:57 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 01:02:09 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:02:09 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:02:19 PM: logGen: INFO: *****passed******
+01/22/2023 01:02:26 PM: logGen: INFO: *****passed******
+01/22/2023 01:02:32 PM: logGen: INFO: *****passed******
+01/22/2023 01:02:38 PM: logGen: INFO: *****passed******
+01/22/2023 01:02:38 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 01:02:38 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 01:02:38 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 01:03:20 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:03:20 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:03:30 PM: logGen: INFO: *****passed******
+01/22/2023 01:03:37 PM: logGen: INFO: *****passed******
+01/22/2023 01:03:43 PM: logGen: INFO: *****passed******
+01/22/2023 01:03:49 PM: logGen: INFO: *****passed******
+01/22/2023 01:03:49 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 01:03:49 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 01:03:49 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 01:09:11 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:09:11 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:09:21 PM: logGen: INFO: *****failed*********
+01/22/2023 01:09:27 PM: logGen: INFO: *****passed******
+01/22/2023 01:09:34 PM: logGen: INFO: *****passed******
+01/22/2023 01:09:40 PM: logGen: INFO: *****passed******
+01/22/2023 01:09:40 PM: logGen: INFO: ********LOGINDATA TEST Failed**********
+01/22/2023 01:10:28 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:10:28 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:15:21 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:15:21 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:15:31 PM: logGen: INFO: *****failed*********
+01/22/2023 01:15:37 PM: logGen: INFO: *****passed******
+01/22/2023 01:15:42 PM: logGen: INFO: *****passed******
+01/22/2023 01:15:48 PM: logGen: INFO: *****passed******
+01/22/2023 01:15:48 PM: logGen: INFO: ********LOGINDATA TEST Failed**********
+01/22/2023 01:18:24 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:18:24 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:18:33 PM: logGen: INFO: *****failed*********
+01/22/2023 01:18:40 PM: logGen: INFO: *****passed******
+01/22/2023 01:18:46 PM: logGen: INFO: *****passed******
+01/22/2023 01:18:52 PM: logGen: INFO: *****passed******
+01/22/2023 01:18:52 PM: logGen: INFO: ********LOGINDATA TEST Failed**********
+01/22/2023 01:19:43 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 01:19:43 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 01:19:55 PM: logGen: INFO: *****passed******
+01/22/2023 01:20:02 PM: logGen: INFO: *****passed******
+01/22/2023 01:20:07 PM: logGen: INFO: *****passed******
+01/22/2023 01:20:13 PM: logGen: INFO: *****passed******
+01/22/2023 01:20:13 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 01:20:13 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 01:20:13 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 02:08:30 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 02:08:30 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 02:10:33 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 02:10:33 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 02:10:44 PM: logGen: INFO: *****passed******
+01/22/2023 02:10:51 PM: logGen: INFO: *****passed******
+01/22/2023 02:10:56 PM: logGen: INFO: *****passed******
+01/22/2023 02:11:02 PM: logGen: INFO: *****passed******
+01/22/2023 02:11:02 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 02:11:02 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 02:11:02 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 02:11:56 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 02:11:56 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 02:12:05 PM: logGen: INFO: *****passed******
+01/22/2023 02:12:12 PM: logGen: INFO: *****passed******
+01/22/2023 02:12:17 PM: logGen: INFO: *****passed******
+01/22/2023 02:12:23 PM: logGen: INFO: *****passed******
+01/22/2023 02:12:23 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 02:12:23 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 02:12:23 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 02:13:42 PM: logGen: INFO: **************** Test_002_DDT_login test **********************
+01/22/2023 02:13:42 PM: logGen: INFO: **************** Verifying Login DDT test **********************
+01/22/2023 02:13:52 PM: logGen: INFO: *****passed******
+01/22/2023 02:13:59 PM: logGen: INFO: *****passed******
+01/22/2023 02:14:05 PM: logGen: INFO: *****passed******
+01/22/2023 02:14:11 PM: logGen: INFO: *****passed******
+01/22/2023 02:14:11 PM: logGen: INFO: ********LOGINDATA TEST PASSED**********
+01/22/2023 02:14:11 PM: logGen: INFO: *********End of login DDT Test**********
+01/22/2023 02:14:11 PM: logGen: INFO: *********Completed Test_002_DDT_Login**********
+01/22/2023 02:16:29 PM: logGen: INFO: **************** Test_001_Login *******************
+01/22/2023 02:16:29 PM: logGen: INFO: **************** Verifying home page title **********************
+01/22/2023 02:16:49 PM: logGen: INFO: **************** home page title passed **********************
+01/22/2023 02:16:50 PM: logGen: INFO: **************** Verifying login test **********************
+01/22/2023 02:17:14 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 08:26:20 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/24/2023 08:26:26 PM: logGen: INFO: ************* Login succesful **********
+01/24/2023 08:26:26 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/24/2023 09:17:07 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:17:07 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:17:07 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:17:07 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:17:07 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:17:12 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:17:12 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:17:12 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:17:12 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:17:12 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:18:17 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:18:17 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:18:17 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:18:17 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:18:17 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 09:18:23 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:18:23 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:18:23 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:18:23 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 09:18:23 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 10:20:02 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 10:20:02 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 10:20:02 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 10:20:02 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 10:20:02 PM: logGen: INFO: **************** Verifying login test **********************
+01/24/2023 10:20:21 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 10:20:21 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 10:20:21 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 10:20:21 PM: logGen: INFO: **************** login test passed **********************
+01/24/2023 10:20:21 PM: logGen: INFO: **************** login test passed **********************
+01/26/2023 06:58:34 PM: logGen: INFO: ************* SearchCustomerByName_005 **********
+01/26/2023 06:58:45 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 06:58:45 PM: logGen: INFO: ******* Starting Search Customer By Name **********
+01/26/2023 07:00:23 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:00:31 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:00:31 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:11:34 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:11:40 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:11:40 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:13:13 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:13:27 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:13:27 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:17:32 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:17:41 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:17:41 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:18:20 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:18:27 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:18:27 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:19:41 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:19:45 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:19:45 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:27:33 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:27:45 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:27:45 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:27:49 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:30:18 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:30:23 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:30:23 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:30:26 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:31:28 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:31:34 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:31:34 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:31:37 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:33:51 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:33:58 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:33:58 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:34:01 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:35:23 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:35:26 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:35:26 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:35:29 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:42:55 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:43:01 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:43:01 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:43:04 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:44:10 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:44:17 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:44:17 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:44:20 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:44:23 PM: logGen: INFO: ************* Saving customer info **********
+01/26/2023 07:44:23 PM: logGen: INFO: ********* Add customer validation started *****************
+01/26/2023 07:47:15 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:47:23 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:47:23 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:47:26 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:47:27 PM: logGen: INFO: ************* Saving customer info **********
+01/26/2023 07:47:27 PM: logGen: INFO: ********* Add customer validation started *****************
+01/26/2023 07:47:28 PM: logGen: ERROR: ********* Add customer Test Failed ************
+01/26/2023 07:49:53 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:50:01 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:50:01 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:50:04 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:50:08 PM: logGen: INFO: ************* Saving customer info **********
+01/26/2023 07:50:08 PM: logGen: INFO: ********* Add customer validation started *****************
+01/26/2023 07:50:08 PM: logGen: INFO: ********* Add customer Test Passed *********
+01/26/2023 07:50:08 PM: logGen: INFO: ******* Ending Add customer test **********
+01/26/2023 07:56:29 PM: logGen: INFO: ************* SearchCustomerByEmail_004 **********
+01/26/2023 07:56:36 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:56:36 PM: logGen: INFO: ******* Starting Search Customer By Email **********
+01/26/2023 07:56:37 PM: logGen: INFO: ************* searching customer by emailID **********
+01/26/2023 07:56:42 PM: logGen: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+01/26/2023 07:58:35 PM: logGen: INFO: ************* Test_003_AddCustomer **********
+01/26/2023 07:58:44 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 07:58:44 PM: logGen: INFO: ******* Starting Add Customer Test **********
+01/26/2023 07:58:46 PM: logGen: INFO: ************* Providing customer info **********
+01/26/2023 07:58:49 PM: logGen: INFO: ************* Saving customer info **********
+01/26/2023 07:58:49 PM: logGen: INFO: ********* Add customer validation started *****************
+01/26/2023 07:58:49 PM: logGen: INFO: ********* Add customer Test Passed *********
+01/26/2023 07:58:49 PM: logGen: INFO: ******* Ending Add customer test **********
+01/26/2023 07:59:52 PM: logGen: INFO: ************* SearchCustomerByEmail_004 **********
+01/26/2023 08:00:01 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 08:00:01 PM: logGen: INFO: ******* Starting Search Customer By Email **********
+01/26/2023 08:00:02 PM: logGen: INFO: ************* searching customer by emailID **********
+01/26/2023 08:00:07 PM: logGen: INFO: ***************  TC_SearchCustomerByEmail_004 Finished  *********** 
+01/26/2023 08:00:42 PM: logGen: INFO: ************* SearchCustomerByName_005 **********
+01/26/2023 08:00:49 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 08:00:49 PM: logGen: INFO: ******* Starting Search Customer By Name **********
+01/26/2023 08:00:52 PM: logGen: INFO: ************* searching customer by Name **********
+01/26/2023 08:00:57 PM: logGen: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
+01/26/2023 08:01:22 PM: logGen: INFO: ************* SearchCustomerByName_005 **********
+01/26/2023 08:01:28 PM: logGen: INFO: ************* Login succesful **********
+01/26/2023 08:01:28 PM: logGen: INFO: ******* Starting Search Customer By Name **********
+01/26/2023 08:01:32 PM: logGen: INFO: ************* searching customer by Name **********
+01/26/2023 08:01:37 PM: logGen: INFO: ***************  TC_SearchCustomerByName_005 Finished  *********** 
