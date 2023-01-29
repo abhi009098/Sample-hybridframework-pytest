@@ -11,7 +11,7 @@ class Test_001_Login:
     password = readconfig.getPassword()
     logger = logGen.loggen()
 
-    @pytest.mark.regression
+    #@pytest.mark.regression
     def test_homepage_title(self, setup):
         self.logger.info("**************** Test_001_Login *******************")
         self.logger.info("**************** Verifying home page title **********************")
@@ -32,8 +32,8 @@ class Test_001_Login:
             # self.logger.info("**************** home page title is failed **********************")
             self.logger.info("**************** home page title is failed **********************")
             assert False
-    @pytest.mark.sanity
-    @pytest.mark.regression
+    # @pytest.mark.sanity
+    # @pytest.mark.regression
     def test_login(self, setup):
         self.logger.info("**************** Verifying login test **********************")
         self.driver = setup  # webdriver.Chrome() will get from conftest.py file
